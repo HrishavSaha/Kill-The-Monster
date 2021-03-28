@@ -4,7 +4,7 @@ class Monster{
             isStatic: true
         }
         this.body =  Bodies.rectangle(x,y,width,height, options);
-        this.image = loadImage("Sprites/monster.png");
+        this.image = loadImage("monster.png");
         this.width = width;
         this.height = height;
         World.add(world,this.body);
