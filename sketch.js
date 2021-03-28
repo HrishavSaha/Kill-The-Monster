@@ -26,7 +26,7 @@ var posX9 = 1000;
 var flag;
 
 function preload() {
-  bg = loadImage("Sprites/sky.jpg");
+  bg = loadImage("sky.jpg");
 
 }
 
