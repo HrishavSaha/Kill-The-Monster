@@ -5,7 +5,7 @@ class Hero{
             'density':0.05
         }
         
-        this.image = loadImage("Sprites/hero.png");
+        this.image = loadImage("hero.png");
         //this.image.scale = 0.1;
         this.body =  Bodies.rectangle(x,y,width,height,options);
         World.add(world,this.body);
